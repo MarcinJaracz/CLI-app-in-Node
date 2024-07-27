@@ -1,0 +1,33 @@
+{
+  "name": "cli-app-in-node",
+  "version": "1.0.0",
+  "description": "First dev tool",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "node",
+    "cli"
+  ],
+  "author": "Marcin Jaracz",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^21.0.1",
+    "bootstrap": "^5.3.3",
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "comander": "^0.0.1-security",
+    "commander": "^12.1.0",
+    "configstore": "^7.0.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^10.1.2",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.8",
+    "simple-git": "^3.25.0",
+    "touch": "^3.1.1"
+  }
+}
